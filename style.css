@@ -1,0 +1,49 @@
+/* home.css */
+
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align container content */
+}
+
+/* Header styles */
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #007bff;
+}
+
+/* Status styles */
+.status {
+    margin-top: 50px; /* Add space between header and status */
+}
+
+.lead {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.empty-spots {
+    font-size: 18px;
+    color: #dc3545;
+}
