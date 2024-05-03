@@ -6,13 +6,13 @@ import numpy as np
 
 app = Flask(__name__)
 
-url = 'http://192.168.0.107:8080/video'
-cap = cv2.VideoCapture(0)
+url = 'http://192.168.189.251:8080/video'
+cap = cv2.VideoCapture(url)
 
-with open('CarParkPos', 'rb') as f:
+with open('CarParkPosi', 'rb') as f:
     posList = pickle.load(f)
 
-width, height = 290, 180
+width, height = 180, 120
 prev_free_spots = 0
 
 def checkParkingSpace(imgPro):
